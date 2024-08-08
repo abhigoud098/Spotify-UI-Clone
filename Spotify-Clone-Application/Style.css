@@ -5,12 +5,7 @@ body{
     overflow: hidden;
     color: white;
     background-color: #000;
-}
-
-@media (min-width: 823px) {
-    body {
-        min-width: 824px;
-    }
+    min-width: 824px;
 }
 
 .main{
@@ -128,7 +123,7 @@ a{
 }
 
 .badge {
-    background-color: #fff;
+    background-color: #ffffff;
     border: none;
     border-radius: 100px;
     padding: 0.25rem 1rem;
@@ -193,7 +188,7 @@ a{
 .card{
     display: flex;
     background-color: #232323;
-    width: 150px;
+    width: 250px;
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 0.8rem;
@@ -208,26 +203,26 @@ a{
 
 .card-img-artist{
     position: relative;
-    top: 1rem;
-    height: 10em;
-    width: 10em;
+    left: 1.2rem;
+    height: 13em;
+    width: 13em;
     border-radius: 50%;
     object-fit: cover;
 }
 
 #singerName{
     position: relative;
-    right: 0.7rem;
+    left: 2rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 #artist{
     position: relative;
-    right: 0.4rem;
+    top: 2.5rem;
+    right: 4rem;
     font-weight: 200;
     font-size: 0.9rem;
-    bottom: 0.7rem;
 }
 
 .cards-container{
@@ -448,9 +443,9 @@ a{
     align-items: center;
     background-color: #2f2e2e;
     padding: 5px 10px;
-    border-radius: 25px;
-    width: 350px;
-    height: 2.5rem;
+    border-radius: 28px;
+    width: 380px;
+    height: 3rem;
 }
 
 .search-bar input{
@@ -460,6 +455,7 @@ a{
     outline: none;
     flex-grow: 1;
     padding-left: 10px;
+    font-size: 1rem;
 }
 
 .search-bar .Search, .search-bar .crose{
@@ -470,4 +466,36 @@ a{
 .search-bar .Search{
     margin-right: 10px;
 }
+
+.songs-in-diffrent-language{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap; 
+}
+
+.laguage-box{
+    height: 235px;
+    width: 410px;
+    background-color: red;
+    margin: 5% 0.8rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+#box-one{
+    background-color:hsl(324, 83%, 47%);
+}
+
+.laguage-box img{
+    height: 13rem;
+    transform: rotate(25deg);
+    position: relative;
+    bottom: 2rem;
+    left: 16rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0;
+}
+
 
